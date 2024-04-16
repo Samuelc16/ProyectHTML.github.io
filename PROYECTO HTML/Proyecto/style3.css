@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400;900 & display=swap');
+
+h1{
+    color: rgb(4, 164, 250);
+}
+*{
+    margin: center;
+    padding:initial;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #b0cfe9;
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+    display: flex;
+    min-height: 100vh;
+}
+.form {
+    background-color:rgb(255, 255, 255) ;
+    margin: 20%;
+    width: 100%;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(89, 4, 4);
+}
+
+header{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    padding: 10px 0;
+    
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border:none;
+}
+
+section{
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+label{
+    width: 0%;
+    padding: 0px;
+    border:none;
+    cursor: pointer;
+    margin-bottom:auto; 
+}
+
+label:hover{
+    background-color: rgb(227, 239, 248);
+    cursor:pointer;
+    transition: all 0.3s ease;
+
+}
+
+.btn { 
+    display: block;
+    background: #3866f2;
+    padding: 15px;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
